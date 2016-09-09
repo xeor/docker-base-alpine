@@ -1,0 +1,4 @@
+#!/bin/sh
+
+touch /var/run/s6/services/$1/down
+s6-svc -d /var/run/s6/services/$1

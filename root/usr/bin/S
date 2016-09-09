@@ -1,0 +1,3 @@
+#!/bin/sh
+
+for i in $(ls /var/run/s6/services/); do echo "${i}: $(s6-svstat /var/run/s6/services/${i})"; done

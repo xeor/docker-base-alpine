@@ -1,0 +1,3 @@
+#!/usr/bin/with-contenv sh
+
+getent hosts ${1:-${HOSTNAME}} | awk '{print $1}'
