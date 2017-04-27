@@ -1,1 +1,1 @@
-/usr/bin/docker-healthcheck false root 0555
+/usr/bin/docker-healthcheck false root 0555 0555
