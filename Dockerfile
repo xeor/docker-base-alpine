@@ -1,11 +1,11 @@
-FROM alpine:3.6
+FROM alpine:3.7
 
-ENV REFRESHED_AT=2017-10-03 \
+ENV REFRESHED_AT=2018-01-21 \
     TZ="Europe/Oslo" \
     TERM="xterm-256color" \
     LANG="en_US.UTF-8" \
     PYTHONIOENCODING="utf-8" \
-    S6_OVERLAY_VERSION=v1.20.0.0
+    S6_OVERLAY_VERSION=v1.21.2.2
 
 COPY root /
 
