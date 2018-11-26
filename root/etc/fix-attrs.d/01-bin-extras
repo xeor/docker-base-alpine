@@ -1,7 +1,5 @@
 /usr/bin/S false root 0555 0555
 /usr/bin/docker-healthcheck false root 0555 0555
 /usr/bin/host-ip false root 0555 0555
-/usr/bin/k8-inotify-reload false root 0555 0555
 /usr/bin/s6-stopdisable false root 0555 0555
 /usr/bin/set-contenv false root 0555 0555
-
